@@ -1,0 +1,11 @@
+body{
+    background-color:dodgerblue;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.header{
+    color: white;
+}
+#msg{
+    width: 400px;
+}

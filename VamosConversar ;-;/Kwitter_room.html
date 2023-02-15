@@ -1,0 +1,40 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos Conversar UWU</title>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Kwitter_room.css">
+</head>
+<body onload="carregar()">
+<link rel="stylesheet" type="text/css" href="Kwitter_room.css" >
+
+<div class="container">
+    <h2 class="oi">Olá</h2><h2 class="oi" id="nome"></h2>
+</div>
+
+<br>
+<br>
+<br>
+<center>
+<input id="ipSala" type="text" class="form-control" placeholder="Nome de Sala">
+<BR>
+<br>
+
+<button id="btSala" class="btn btn-primary" onclick="addRoom()">#Sala</button>    
+<div id="Guardar"></div>
+<div id="output"></div>
+</center>
+
+
+<script src="Kwitter_room.js"></script>
+</body>

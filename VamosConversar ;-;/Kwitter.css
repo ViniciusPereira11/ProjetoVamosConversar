@@ -1,0 +1,12 @@
+body{
+    background-image: linear-gradient(rgb(0, 225, 255), rgb(209, 255, 157));
+}
+#nUsuario{
+    width:200px; height:30px;
+    border-radius: 10px;
+}
+#btLogin{
+    width:150px; height:50px;
+    background-color:aqua;
+    border-radius:10px;
+}
